@@ -1,0 +1,148 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2568655528" file="D:\C&amp;G_final\G&amp;M3D.prj" location="D:\C&amp;G_final" name="G&amp;M3D" target="target.mlapps" target-name="打包为 App">
+    <param.appname>G&amp;M3D</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\53433\AppData\Local\Temp\tp092eb79b_6738_4e1d_88d1_a0bedf7a4c14.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>02ac9070-f4b4-4b2e-8761-c1547b294fce</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Main.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Box_Axis.m</file>
+      <file>${PROJECT_ROOT}\CenterAndSize2Fixed.m</file>
+      <file>${PROJECT_ROOT}\CreateModel.mlapp</file>
+      <file>${PROJECT_ROOT}\Cube.png</file>
+      <file>${PROJECT_ROOT}\CubeFixed.png</file>
+      <file>${PROJECT_ROOT}\CubeParameter.mlapp</file>
+      <file>${PROJECT_ROOT}\CubeSubdivision.m</file>
+      <file>${PROJECT_ROOT}\CylinderParameter.mlapp</file>
+      <file>${PROJECT_ROOT}\CylinderSubdivision.m</file>
+      <file>${PROJECT_ROOT}\Cyliner.png</file>
+      <file>${PROJECT_ROOT}\Cylinerprofile.png</file>
+      <file>${PROJECT_ROOT}\dataselect .png</file>
+      <file>${PROJECT_ROOT}\displayIrre.mlapp</file>
+      <file>${PROJECT_ROOT}\DrewSet.mlapp</file>
+      <file>${PROJECT_ROOT}\Error.mlapp</file>
+      <file>${PROJECT_ROOT}\FindClosestDivisibleNum.m</file>
+      <file>${PROJECT_ROOT}\ForwardData.mlapp</file>
+      <file>${PROJECT_ROOT}\GraFor.mlapp</file>
+      <file>${PROJECT_ROOT}\Help.png</file>
+      <file>${PROJECT_ROOT}\Irregular.png</file>
+      <file>${PROJECT_ROOT}\JudgeIsParallel.m</file>
+      <file>${PROJECT_ROOT}\LayerBuilding.mlapp</file>
+      <file>${PROJECT_ROOT}\MagFor.mlapp</file>
+      <file>${PROJECT_ROOT}\main-inputfile.png</file>
+      <file>${PROJECT_ROOT}\main-newmodel.png</file>
+      <file>${PROJECT_ROOT}\mainicon.png</file>
+      <file>${PROJECT_ROOT}\ModelForward.png</file>
+      <file>${PROJECT_ROOT}\Modelforwarding.mlapp</file>
+      <file>${PROJECT_ROOT}\ModelingRange.mlapp</file>
+      <file>${PROJECT_ROOT}\MoveAppCenter.m</file>
+      <file>${PROJECT_ROOT}\NeedtoDraw.m</file>
+      <file>${PROJECT_ROOT}\Output.png</file>
+      <file>${PROJECT_ROOT}\Plot_Cylinder.m</file>
+      <file>${PROJECT_ROOT}\Plot_Irregular.m</file>
+      <file>${PROJECT_ROOT}\Plot_Sphere.m</file>
+      <file>${PROJECT_ROOT}\Setting.png</file>
+      <file>${PROJECT_ROOT}\sphere.png</file>
+      <file>${PROJECT_ROOT}\SphereParameter.mlapp</file>
+      <file>${PROJECT_ROOT}\SphereSubdivision.m</file>
+      <file>${PROJECT_ROOT}\View.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\" name="C&amp;G_final" optional="false">D:\C&amp;G_final</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\MATLAB2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
